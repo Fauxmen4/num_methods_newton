@@ -11,7 +11,7 @@ var (
 )
 
 func localize(A, B float64, f func(x float64) float64) (float64, float64) {
-	var i float64 = 1 //* начальный размер шага
+	var i float64 = 1 //? начальный размер шага
 	for {
 		var step float64 = 1 / i
 		var current float64 = A
